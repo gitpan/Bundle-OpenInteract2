@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::OpenInteract2
 
+1.03  Fri Dec  3 23:16:38 EST 2004
+
+Updates for 1.99_05
+
 1.02  Thu Jun 17 17:12:21 EDT 2004
 
       Update version of SPOPS required.

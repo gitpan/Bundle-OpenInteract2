@@ -1,8 +1,8 @@
 package Bundle::OpenInteract2;
 
-# $Id: OpenInteract2.pm,v 1.2 2004/03/04 14:18:33 lachoy Exp $
+# $Id: OpenInteract2.pm,v 1.3 2004/12/05 21:17:42 lachoy Exp $
 
-$Bundle::OpenInteract2::VERSION = '1.02';
+$Bundle::OpenInteract2::VERSION = '1.03';
 
 1;
 
@@ -62,6 +62,8 @@ HTML::Entities (1.13)
 
 Lingua::Stem (0.50)
 
+Locale::Maketext (1.06)
+
 Log::Dispatch (2.00)
 
 Log::Log4perl (0.34)
@@ -83,6 +85,8 @@ Template (2.04)
 Test::MockObject (0.12)
 
 Test::More (0.41)
+
+Text::Sentence
 
 URI
 
