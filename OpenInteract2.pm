@@ -2,7 +2,7 @@ package Bundle::OpenInteract2;
 
 # $Id: OpenInteract2.pm,v 1.2 2004/03/04 14:18:33 lachoy Exp $
 
-$Bundle::OpenInteract2::VERSION = '1.01';
+$Bundle::OpenInteract2::VERSION = '1.02';
 
 1;
 
@@ -76,7 +76,7 @@ Mail::Sendmail (0.77)
 
 Pod::POM (0.15)
 
-SPOPS (0.85)
+SPOPS (0.87)
 
 Template (2.04)
 
