@@ -1,8 +1,8 @@
 package Bundle::OpenInteract2;
 
-# $Id: OpenInteract2.pm,v 1.1 2004/03/04 04:53:37 lachoy Exp $
+# $Id: OpenInteract2.pm,v 1.2 2004/03/04 14:18:33 lachoy Exp $
 
-$Bundle::OpenInteract2::VERSION = '1.00';
+$Bundle::OpenInteract2::VERSION = '1.01';
 
 1;
 
@@ -42,8 +42,6 @@ DateTime (0.13)
 
 DateTime::Format::Strptime (1.00)
 
-DBD::SQLite (0.25)
-
 Devel::StackTrace
 
 Digest::MD5
@@ -54,11 +52,11 @@ Exception::Class
 
 File::Copy
 
-File::DirSync
+File::DirSync (1.11)
 
 File::MMagic
 
-Getopt::Long
+Getopt::Long (2.32)
 
 HTML::Entities (1.13)
 
@@ -78,7 +76,7 @@ Mail::Sendmail (0.77)
 
 Pod::POM (0.15)
 
-SPOPS (0.80)
+SPOPS (0.85)
 
 Template (2.04)
 
@@ -88,10 +86,12 @@ Test::More (0.41)
 
 URI
 
+DBD::SQLite (0.25)
+
 =head1 DESCRIPTION
 
 Install all the modules needed for OpenInteract2, but not OI2 itself
-until its out of beta.
+until it is out of beta.
 
 =head1 MORE INFORMATION
 
@@ -101,7 +101,7 @@ Sourceforge Project Home:
 
 News, documentation and collaborative environment:
 
- http://openinteract.sourceforge.net/
+ http://www.openinteract.org/
 
 =head1 AUTHOR
 
